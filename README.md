@@ -39,7 +39,7 @@ The application follows a layered architecture:
 
 1. Clone the repository:
     ```bash
-    https://github.com/kanhaiyatiwari/live-voice-translator-app.git
+    https://github.com/kanhaiyatiwari/kanhaiya_vt_12_8_2024.git
     ```
 
 2. Configuration
@@ -65,3 +65,32 @@ Once the application is running, you can access the service at:
     ```bash
     http://localhost:8080
     ```
+
+### 1. Shorten a URL
+**Endpoint:** `/shorten`  
+**Method:** `POST`
+
+### 2. Handle Dynamic HTTP Methods
+**Endpoint:** `/{shortUrl}`  
+**Method:** `GET`, `POST`, `PUT`, `DELETE`
+
+### 3. Update Short URL
+**Endpoint:** `/update`  
+**Method:** `POST`
+
+### 4. Update Expiry of Short URL
+**Endpoint:** `/update-expiry`  
+**Method:** `POST`
+
+## 📸 demo link
+- **call demo video**: https://drive.google.com/file/d/1Okllkhpr7_1di4Nf5kHHacBSmKW9HJoU/view?usp=sharing
+
+## 💬 Contact
+
+For questions or suggestions, feel free to reach out!
+
+- **Email**: tiwarikanhaiya@gmail.com
+
+
+Thank you for visiting our repository! We hope this application enhances your communication experience by bridging language gaps.
+
